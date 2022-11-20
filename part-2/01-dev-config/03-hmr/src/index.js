@@ -11,3 +11,7 @@ button.addEventListener("click", () => {
 });
 
 document.body.appendChild(button);
+
+if (module.hot) {
+  module.hot.accept("./input.js", () => {});
+}

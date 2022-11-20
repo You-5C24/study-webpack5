@@ -1,1 +1,2 @@
-document.querySelector("#box").innerHTML = '<input type="text" value="test" />';
+document.querySelector("#box").innerHTML =
+  '<input type="text" value="test123" />';
